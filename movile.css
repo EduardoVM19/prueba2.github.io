@@ -1,0 +1,162 @@
+  /* Estilos responsivos para ajustar el tamaño de las flechas en pantallas pequeñas */
+  @media (max-width: 768px) {
+    .rslides_nav.prev,
+    .rslides_nav.next {
+      font-size: 20px;
+      padding: 8px;
+    }
+
+    #header {
+      flex-direction: column;
+      gap: 0;
+      padding: 10px 0;
+    }
+
+    .menu-responsive {
+      display: flex;
+      flex-direction: row;
+      gap: 180px;
+      justify-content: center;
+      align-items: center;
+      max-width: 768px;
+      padding: 0 20px;
+    }
+
+    .menu-responsive figure {
+      max-width: 200px;
+    }
+
+    #iconomenu {
+      display: block;
+    }
+
+    #iconomenu i {
+      font-size: 30px;
+      color: #ff4048;
+    }
+    #contenedor-menu {
+      display: none;
+      
+  }
+
+  #menu-espaniol {
+    display: none;
+    padding: 10px;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      background-color: #ff4048;
+  }
+  
+  #menu-espaniol.mostrar {
+      display: flex; /* Activa flex solo cuando esté la clase */
+  }
+
+  .btn-menu {
+    width: 90%;
+    display: block;
+    border-bottom: 1px white dotted;
+    color: white;
+}
+
+.menu_movile {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+  .contenedor-informacion {
+    background-color: #ff404a76;
+    max-width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  .contenedor-informacion h2{
+    font-size: 50px;
+    color: white;
+  }
+
+  .contenedor-informacion p {
+    display: none;
+  }
+
+  #services h1 {
+    display: none;
+  }
+
+  .titulo-movil {
+    display: block;
+    color: #ff4048;
+    font-size: 30px;
+  }
+
+  .linea-movil {
+    display: block;
+    width: 70px;
+    height: 10px;
+    background-color: black;
+    margin: auto;
+  }
+
+  .contenedor-article {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+  article {
+    padding: 20px;
+  }
+
+  #gallerys {
+    flex-direction: column;
+  }
+
+  .contenedor-gallery {
+    order: 2;
+    
+  }
+
+  .contenedor-info {
+    order: 1;
+    
+  }
+
+  .contenedor-gallery {
+    display: block;
+    max-width: 90%;
+    border: 1px red solid;
+  }
+
+  .contenedor-gallery figure {
+    width: 80%;
+    height: 80%;
+    padding: 20px 0;
+    margin: auto;
+  }
+
+  .contenedor-contacto {
+    gap: 0;
+  }
+
+  .contenedor-copy {
+    display: none;
+  }
+
+  .footer hr {
+    display: none;
+  }
+
+  .contenedor-regresar {
+    top: 0;
+    right: 4%;
+  }
+
+  }
+  
